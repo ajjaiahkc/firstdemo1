@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="42179" started-at="2021-09-17T12:24:04 IST" finished-at="2021-09-17T12:24:46 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="17949" started-at="2021-09-17T12:24:04 IST" finished-at="2021-09-17T12:24:22 IST">
+      <class name="com.wordpress.Pages.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.wordpress.Pages.CrossBrowserScript@13275d8]" name="setup" is-config="true" duration-ms="4400" started-at="2021-09-17T12:24:04 IST" finished-at="2021-09-17T12:24:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.wordpress.Pages.CrossBrowserScript@13275d8]" name="testParameterWithXML" duration-ms="13498" started-at="2021-09-17T12:24:09 IST" finished-at="2021-09-17T12:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.wordpress.Pages.CrossBrowserScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="24191" started-at="2021-09-17T12:24:22 IST" finished-at="2021-09-17T12:24:46 IST">
+      <class name="com.wordpress.Pages.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.wordpress.Pages.CrossBrowserScript@1894593a]" name="setup" is-config="true" duration-ms="8002" started-at="2021-09-17T12:24:22 IST" finished-at="2021-09-17T12:24:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.wordpress.Pages.CrossBrowserScript@1894593a]" name="testParameterWithXML" duration-ms="16188" started-at="2021-09-17T12:24:30 IST" finished-at="2021-09-17T12:24:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.wordpress.Pages.CrossBrowserScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
