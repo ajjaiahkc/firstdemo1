@@ -4,13 +4,13 @@
   <test name="SampleTest" >
   <parameter name="browser" value="Chrome"/>
     <classes>
-       <class name="com.wordpress.Pages.RecorderSript" />
+       <class name="com.wordpress.Pages.VerifyWordpressLogin" />
     </classes>
   </test>
   <test name="Sample2Test" >
   <parameter name="browser" value="Firefox"/>
     <classes>
-       <class name="com.wordpress.Pages.RecorderSript" />
+       <class name="com.wordpress.Pages.VerifyWordpressLogin" />
     </classes>
   </test>
 
